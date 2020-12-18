@@ -715,7 +715,7 @@ li{
     
     .hero-section .section{
         position: absolute;
-        top: 25%;
+        top: 26%;
         width: 100%;
         display: flex;
     }
@@ -812,10 +812,21 @@ li{
        
         height: 150px;
         display: flex;
-        font-size: 8px;
-        padding: 17px 40px;
+        font-size: 7px;
+        padding: 20px 15px;
         width: 100%;
-    }.footer-content-service{
+    }.footer-content-about,
+    .footer-content-social,
+    .footer-content-icon,
+    .footer-content-icons h3{
+        font-size: 12px;
+    }.footer-content-about,
+    .footer-content-social,
+    .footer-content-icon,
+    .footer-content-icons p{
+        font-size: 9px;
+    }
+    .footer-content-service{
        
         height: 110px;
         display: flex;
