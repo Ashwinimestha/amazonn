@@ -38,8 +38,6 @@
 
 }.form-full:hover{
     border: 2px solid rgb(247, 209, 43);
-
-
 }
 
 input[type=text]{
@@ -236,7 +234,6 @@ li{
     text-align: center;
     align-items: center;
     
-    
 }
 .footer{
     background: rgba(45, 43, 61, 0.966);
@@ -245,15 +242,30 @@ li{
 }
 .footer-content{
    
-    height: 300px;
+    height: 200px;
     justify-content: center;
     justify-content: space-evenly;
     display: flex;
-    padding: 60px;
+    padding: 30px 0;
+    font-family: sans-serif;
 
-}.footer-content-about{
-    
-
+}.footer-content-about,
+.footer-content-social,
+.footer-content-icon,
+.footer-content-icons h3{
+    font-size: 17px;
+}.footer-content-about,
+.footer-content-social,
+.footer-content-icon,
+.footer-content-icons p{
+    font-size: 12px;
+}.footer-content-service{
+       
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 50px;
+    justify-content: space-evenly;
 }.foothr{
     color: 1px solid grey;
 }
@@ -263,6 +275,9 @@ li{
 .footer-logo{
     text-align: center;
     padding: 30px 0;
+    color: rgb(185, 185, 183);
+
+    background-color:rgba(45, 43, 61, 0.966) ;
 }
 
 .amazon-logo{
@@ -289,44 +304,29 @@ li{
     margin: 0 200px;
     padding: 40px 0;
 }
-.footer-content-adebooks h4{
+.footer-content-adebooks,
+.footer-content-amazon 
+.footer-content-audible,
+.footer-content-audible h3{
     font-size: 13px;
 }
-.footer-content-adebooks p{
-    font-size: 12px;
-}.footer-content-amazon h4{
-    font-size: 13px;
+.footer-content-adebooks,
+.footer-content-amazon,
+.footer-content-audible,
+.footer-content-audible span{
+    font-size: 11px;
 }
-.footer-content-amazon p{
-    font-size: 12px;
-}
-.footer-content-audible h4{
-    font-size: 13px;
-}
-.footer-content-audible p{
-    font-size: 12px;
-}.footer-content-dpreview h4{
-    font-size: 13px;
-}.footer-content-dpreview p{
-    font-size: 12px;
-}.footer-content-imdb h4{
-    font-size: 13px;
-}
-.footer-content-imdb p{
-    font-size: 12px;
-}
+
  .footer-last .footer-copyrights{
     justify-content: center;
     display: flex;
-
-
  }.footer-last .footer-copyrights{
-     padding: 20px 0 30px 0;
+     padding: 5px 0 5px 0;
  }.footer-copyrights a{
      font-size: 12px;
  }.footer-copyrights .amiddle{
     font-size: 12px;
-    padding:0 20px;
+    padding:0 10px;
 }
  
  .footer-copyrights p{
@@ -340,6 +340,9 @@ li{
     align-items: center;
     padding: 6px 50px;
     font-size: 8px;
+}.foot-hr{
+    background-color: rgb(83, 82, 82);
+    border: 1px solid rgb(68, 68, 68);
 }
  @media (max-width:1200px){
     .header{
@@ -636,85 +639,83 @@ li{
     /* navbar */
     .navbar{
         width: 100%;
-        height: 25px;
+        height: 28px;
         background-color: rgb(15, 15, 88);
         color: white;
         display: flex;
     }
     .font-awesome{
         display: flex;
-        line-height: 5px;
+        line-height: 6px;
         padding-top: 2px;
-        padding-left: 3px;
-        width: 50px;
+        padding-left: 5px;
+        width: 100px;
     
     }.font-awesome .fas{
-        font-size: 7px;
-        padding-top: 6px;
+        font-size: 8px;
+        padding-top: 4px;
         color:#fff;
     }.font-awesome-text{
-        padding-left: 2px;
-        font-size: 5px;
+        padding-left: 5px;
     } 
     .font-awesome-text p{
-        font-size: 5px;
+        font-size: 6px;
     
     } .font-awesome-text span{
         font-size: 5px;
         font-weight: 600;
+        line-height: 2px;
     }.navbar-li{
-        width: 600px;
-        display: flex;
-        font-size: 6px;
+        width: 850px;
     }
-     li{
-         display: flex;
-        flex-direction: column;
-        line-height: 5px;
-        width: 20px;
-        padding-left: 2px;
-    }ul {
-        display: flex;
+    li{
+        display: inline-block;
+        line-height: 3px;
+        padding: 10px 2px;
+        font-size: 5px;
     }
     .nav-text{
         display: flex;
-        line-height: 10px;
-        padding-left: 3px;
-        overflow: hidden;
+        line-height: 50px;
+        width: 100px;
         visibility: hidden;
+        display: none;
     }
     .nav-text h1{
-        font-size: 15px;
+        font-size: 13px;
         color: rgb(224, 167, 8);
-        visibility: hidden;
     }.nav-text-h1{
         background-color: rgb(39, 76, 240);
+        padding-right: 30px;
         visibility: hidden;
     
     
     }.nav-text-h1 h3{
-        visibility: hidden;
-        overflow: hidden;
+        font-size: 18px;
+        margin-bottom: -30px;
     }.nav-text-h1 span{
         font-size: 13px;
-        visibility: hidden;
-        overflow: hidden;
+        padding-left: 10px;
     }
+    
+
+
+
     /* hero section */
     .hero-section{
-        height: 400px;
+        height: 200px;
     }
      .mainimg{
         position: relative;
         width: 100%;
-        height: 400px;
+        height: 100%;
     }
 
 
     
     .hero-section .section{
         position: absolute;
-        top: 39%;
+        top: 25%;
         width: 100%;
         display: flex;
     }
@@ -726,23 +727,23 @@ li{
     .section .item1{
         background-color:white;
         width: 130px;
-        height: 200px;
+        height: 100px;
         padding: 3px;
     }
     .walltv{
         width: 120px;
-        height: 170px;
+        height: 75px;
     }
     
     .section .item2{
         background-color: white;
         width: 130px;
-        height: 200px;
+        height: 100px;
        padding:  3px;
 
     } 
     .item2 h3{
-        padding: 10px 5px;
+        padding: 0px 5px;
         font-size: 8px;
 
     }
@@ -756,17 +757,17 @@ li{
         padding: 0px;
     }
     .tv{
-        width: 50px;
-        height: 60px;
+        width:50px;
+        height: 25px;
     }
     .machine{
         width: 50px;
-        height: 60px;
+        height: 25px;
     }
     .section .item3{
         background-color:white;
         width: 100px;
-        height: 200px;
+        height: 70px;
 
     } 
     .item3 h3{
@@ -777,7 +778,7 @@ li{
     .section .item4{
         background-color: white;
         width: 100px;
-        height: 200px;
+        height: 70px;
     } .item4 h3{
         font-size: 8px;
         padding: 10px 5px;
@@ -809,19 +810,29 @@ li{
     }
     .footer-content{
        
-        height: 300px;
+        height: 150px;
         display: flex;
-        font-size: 10px;
-    
-    }.footer-content-about{
-        
-    
+        font-size: 8px;
+        padding: 17px 40px;
+        width: 100%;
+    }.footer-content-service{
+       
+        height: 110px;
+        display: flex;
+        padding: 35px 30px;
+        width: 100%;
+    }.footer-content-adebooks,
+    .footer-content-amazon,
+    .footer-content-audible,
+    .footer-content-audible h3{
+        font-size: 8px;
+    }.footer-content-adebooks,
+    .footer-content-amazon,
+    .footer-content-audible span{
+        font-size: 6px;
     }.foothr{
         color: 1px solid grey;
     }
-    
-    
-    
     .footer-logo{
         text-align: center;
         padding: 30px 0;
@@ -831,9 +842,10 @@ li{
         display: flex;
         justify-content: center;
         padding: 5px ;
+        font-size: 12px;
     }.amazon-logo button{
-        margin: 0 100px;
-        padding: 3px 10px;
+        margin: 0 70px;
+        padding: 0px 6px;
     }
     .amazon-country{
         display: flex;
@@ -845,42 +857,7 @@ li{
         background-color:rgba(12, 14, 20, 0.945);
         color: rgb(158, 158, 158);
     }.footer-content-last{
-        padding: 0;
-        display: flex;
-    }.footer-content-adebooks{
-        width: 100px;
-
-    }
-    .footer-content-adebooks h4{
-        font-size: 13px;
-
-    }
-    .footer-content-adebooks p{
-        font-size: 12px;
-    }.footer-content-amazon{
-        width: 100px;
-
-    }
-    .footer-content-amazon h4{
-        font-size: 13px;
-    }
-    .footer-content-amazon p{
-        font-size: 12px;
-    }
-    .footer-content-audible h4{
-        font-size: 13px;
-    }
-    .footer-content-audible p{
-        font-size: 12px;
-    }.footer-content-dpreview h4{
-        font-size: 13px;
-    }.footer-content-dpreview p{
-        font-size: 12px;
-    }.footer-content-imdb h4{
-        font-size: 13px;
-    }
-    .footer-content-imdb p{
-        font-size: 12px;
+        height: 300px;
     }
     .footer-copyrights{
         display: flex;
@@ -1107,25 +1084,25 @@ li{
     margin: 0 200px;
     padding: 40px 450px;
 }
-.footer-content-adebooks h4{
+.footer-content-adebooks h3{
     font-size: 13px;
 }
-.footer-content-adebooks p{
+.footer-content-adebooks span{
     font-size: 12px;
-}.footer-content-amazon h4{
+}.footer-content-amazon h3{
     font-size: 13px;
 }
-.footer-content-amazon p{
+.footer-content-amazon span{
     font-size: 12px;
 }
-.footer-content-audible h4{
+.footer-content-audible h3{
     font-size: 13px;
 }
-.footer-content-audible p{
+.footer-content-audible span{
     font-size: 12px;
-}.footer-content-dpreview h4{
+}.footer-content-audible h3{
     font-size: 13px;
-}.footer-content-dpreview p{
+}.footer-content-audible p{
     font-size: 12px;
 }.footer-content-imdb h4{
     font-size: 13px;
@@ -1152,3 +1129,4 @@ li{
      color: rgb(82, 81, 81);
      padding-left: 25px;
  }
+}
